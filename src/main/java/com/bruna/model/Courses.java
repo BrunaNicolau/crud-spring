@@ -17,7 +17,7 @@ public class Courses {
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
-  // tranforma o nome dessa propriedade no json do response
+  // tranforma o nome dessa propriedade no json do responspe
   @JsonProperty("_id")
   private long id;
 
